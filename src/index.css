@@ -1,0 +1,70 @@
+body {
+  background-color: #202025;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.title {
+  color: #bfaa7d;
+}
+.btn-submit {
+  margin-top: 40px;
+  background-color: #c1ab7e;
+  border: none;
+  color: black;
+  padding: 15px 30px;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: background-color 0.4s ease;
+}
+.btn-submit:hover {
+  background-color: rgba(193, 171, 126, 0.62);
+}
+
+.form-first-name {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 250px;
+  margin: 0 auto;
+}
+.label-first-name {
+  display: flex;
+  margin-bottom: .3rem;
+  font-size: .9rem;
+  font-weight: bold;
+  color: #bfaa7d;
+  transition: color .3s cubic-bezier(.25,.01,.25,1) 0s;
+  padding-bottom: 3px;
+}
+.first-input {
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.44);
+  border-radius: .5rem;
+  padding: 0 1rem;
+  border: 2px solid transparent;
+  font-size: 1rem;
+  transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s,background .2s cubic-bezier(.25,.01,.25,1) 0s;
+}
+.first-input:hover, .first-input:focus {
+  outline: none;
+  background-color: rgba(234, 212, 169, 0.62);
+}
+.first-name-error {
+  color: red;
+  display: flex;
+  margin: 0;
+  padding-top: 5px;
+  font-family: Circe;
+  font-weight: lighter;
+}
