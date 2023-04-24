@@ -28,7 +28,10 @@ code {
   transition: background-color 0.4s ease;
 }
 .btn-submit:hover {
-  background-color: rgba(193, 171, 126, 0.62);
+  background-color: #c1ab7e9e;
+}
+.btn-submit:disabled {
+  background-color: #5c523d9e;
 }
 
 .form-first-name {
@@ -58,7 +61,7 @@ code {
 }
 .first-input:hover, .first-input:focus {
   outline: none;
-  background-color: rgba(234, 212, 169, 0.62);
+  background-color: rgba(255, 255, 255, 0.62);
 }
 .first-name-error {
   color: red;
